@@ -1,0 +1,11 @@
+<h2>ITEMS</h2>
+<app-edit-item></app-edit-item>
+<ul class="items-container">
+    <li *ngFor="let item of items">
+        <app-item [item]="item"
+                  [deleteVisible]="authenticated"
+                  (click)="select(item)"
+                  (delete)="delete($event)"
+                  [class.selected]="item?.id === selectedItem?.id"></app-item>
+    </li>
+</ul>

@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+form {
+  padding: 0 24px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+input {
+  width: 100%;
+  background-color: #6b6e78;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  outline: none;
+  padding: 4px;
+  margin: 8px 0;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 400;
+  color: $danger-color;
+  padding: 24px;
+}

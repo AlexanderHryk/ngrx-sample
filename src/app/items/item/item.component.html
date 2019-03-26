@@ -1,0 +1,7 @@
+<div class="item-wrapper">
+    <p>{{ item?.name }}</p>
+    <span class="comments">{{ item?.comments }}</span>
+    <button class="app-btn-outline"
+            (click)="onDeleteBtnClick($event)"
+            *ngIf="deleteVisible">DELETE</button>
+</div>

@@ -1,0 +1,6 @@
+<input type="text"
+       placeholder="Type name here"
+       [formControl]="nameControl" />
+<button class="app-btn-primary"
+        *ngIf="authenticated"
+        (click)="onAddBtnClick()">ADD</button>

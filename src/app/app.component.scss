@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  align-items: flex-start;
+}
+
+app-auth {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+}
+
+app-items-list {
+  min-width: 550px;
+  max-width: 550px;
+  margin-left: 300px;
+}
+
+app-comments-list {
+  flex: 1;
+  min-width: 400px;
+}

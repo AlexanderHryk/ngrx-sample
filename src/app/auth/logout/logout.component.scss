@@ -1,0 +1,19 @@
+:host {
+  padding: 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+  }
+
+  .app-btn-primary {
+    margin-left: auto;
+  }
+}

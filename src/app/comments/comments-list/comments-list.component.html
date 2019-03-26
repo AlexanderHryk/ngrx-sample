@@ -1,0 +1,8 @@
+<h2>COMMENTS #{{ selectedItem?.id }}</h2>
+<ul class="comments-container">
+    <li *ngFor="let comment of comments">
+        <app-comment [comment]="comment"></app-comment>
+    </li>
+</ul>
+<app-edit-comment *ngIf="authenticated"
+                  (enter)="onCommentInput($event)"></app-edit-comment>

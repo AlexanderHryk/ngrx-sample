@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+:host {
+  display: block;
+  padding: 24px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: $secondary-color;
+  letter-spacing: 4px;
+}
+
+ul.items-container {
+  list-style-type: none;
+}

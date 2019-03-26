@@ -1,0 +1,9 @@
+<h3>DIARY APP</h3>
+<h4>Comment with no sense</h4>
+<app-login *ngIf="!authenticated"
+           [incorrectEmailOrPassword]="incorrectEmailOrPassword"
+           (login)="onLogin($event)"
+           (cancel)="onCancel()">
+</app-login>
+<app-logout *ngIf="authenticated"
+            (logout)="onLogout()"></app-logout>

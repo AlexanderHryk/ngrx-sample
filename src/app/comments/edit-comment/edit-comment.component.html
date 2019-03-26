@@ -1,0 +1,4 @@
+<div class="avatar-placeholder"></div>
+<textarea placeholder="Type comment here"
+          #commentTextarea
+          (keydown.enter)="onEnterKeydown($event, commentTextarea.value); commentTextarea.value=''"></textarea>
